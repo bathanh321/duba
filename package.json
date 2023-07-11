@@ -1,0 +1,25 @@
+{
+  "name": "linhtinh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/bot.js",
+    "dev": "nodemon ./src/bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "axios": "^1.4.0",
+    "canvacord": "^5.4.10",
+    "discord-banner": "^1.6.7",
+    "discord-canvas": "^1.5.2",
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "moment-timezone": "^0.5.43",
+    "twemoji-parser": "^14.0.0"
+  }
+}
